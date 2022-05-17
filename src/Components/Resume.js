@@ -40,7 +40,7 @@ const Resume = ({ data }) => {
 
   return (
     <section id="resume">
-      <div className="row education">
+      <div data-aos="fade-left" className="row education">
         <div className="three columns header-col">
           <h1>
             <span>Education</span>
@@ -54,7 +54,7 @@ const Resume = ({ data }) => {
         </div>
       </div>
 
-      <div className="row work">
+      <div data-aos="fade-right" data-aos-delay="400" className="row work">
         <div className="three columns header-col">
           <h1>
             <span>Work</span>
@@ -64,7 +64,7 @@ const Resume = ({ data }) => {
         <div className="nine columns main-col">{work}</div>
       </div>
 
-      <div className="row skill">
+      <div data-aos="fade-left" data-aos-delay="800" className="row skill">
         <div className="three columns header-col">
           <h1>
             <span>Skills</span>

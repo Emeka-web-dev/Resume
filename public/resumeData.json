@@ -3,7 +3,7 @@
     "name": "Emeka Chukwu",
     "occupation": "Web Developer",
     "description": "Welcome to my world of development",
-    "image": "profilepic.jpg",
+    "image": "profilepic.png",
     "bio": "Hi, i'm a web developer based in Jos, i build web apps and mobile responsive application.",
     "contactmessage": "Get in touch with me to view another part of my world!",
     "email": "emekarexchukwu@gmail.com",
@@ -14,19 +14,16 @@
       "state": "Plateau",
       "zip": "W3B D3V"
     },
-    "website": "https://www.papareact.com/course",
-    "resumedownload": "http://papareact.com",
-    "social": [
-     
+    "social": [     
       {
         "name": "facebook",
-        "url": "https://www.facebook.com/sonny.sangha.3",
+        "url": "https://web.facebook.com/chukwu.emeka.75436531",
         "className": "fa fa-facebook"
       },
      
       {
         "name": "twitter",
-        "url": "https://www.instagram.com/ssssangha/",
+        "url": "https://twitter.com/Rex_mekus",
         "className": "fa fa-twitter"
       },
       {
@@ -83,7 +80,9 @@
       {"user": "Kelechi Ekeh",
       "text": "Emeka is not just a programmer, but a good one."},
       {"user": "Chibuzor Amaechi",
-      "text": "He always think outside the box."}
+      "text": "He always think outside the box."},
+      {"user": "Daniel Nzekwe",
+        "text": "He always think outside the box."}
       
     ],
     "password": "MpjkBT645gxfsMy"

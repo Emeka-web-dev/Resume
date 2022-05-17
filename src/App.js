@@ -1,4 +1,7 @@
 import React, { useEffect, useState } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
 
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
@@ -21,11 +24,17 @@ const App = () => {
       });
   }, []);
 
+    useEffect(() => {
+      AOS.init({
+        duration: 800
+      })
+    }, [])
+
   return (
     <div className="App">
-      <Header data={resumeData.main} />
+      <Header  data={resumeData.main} />
       <About data={resumeData.main} />
-      <Resume data={resumeData.resume} />
+      <Resume  data={resumeData.resume} />
       <Portfolio />
       <Testimonials data={resumeData.testimonials} />
       <Contact data={resumeData.main} />
